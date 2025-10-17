@@ -321,23 +321,26 @@
                 </div>
                 <div>
 
-            <form action="contact.php" method="POST" class="space-y-4">
+    <form action="contact.php" method="POST" class="bg-white p-6 rounded-xl shadow-md space-y-4 w-full max-w-md">
+      <h2 class="text-2xl font-semibold text-center text-indigo-600">Contact Me</h2>
+
       <div>
-        <label class="block text-sm font-medium text-gray-700">Name</label>
-        <input type="text" name="name" required class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-indigo-500" />
+          <label class="block mb-1 text-gray-700">Name</label>
+          <input type="text" name="name" required class="w-full border rounded-lg px-3 py-2">
       </div>
+
       <div>
-        <label class="block text-sm font-medium text-gray-700">Email</label>
-        <input type="email" name="email" required class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-red-500" />
+          <label class="block mb-1 text-gray-700">Email</label>
+          <input type="email" name="email" required class="w-full border rounded-lg px-3 py-2">
       </div>
+
       <div>
-        <label class="block text-sm font-medium text-gray-700">Message</label>
-        <textarea name="message" rows="4" required class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-indigo-500"></textarea>
+          <label class="block mb-1 text-gray-700">Message</label>
+          <textarea name="message" rows="4" required class="w-full border rounded-lg px-3 py-2"></textarea>
       </div>
-      <button type="submit" class="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition">
-        Send Message
-      </button>
-    </form>
+
+      <button type="submit" class="w-full bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700">Send Message</button>
+  </form>
                 </div>
             </div>
         </div>
@@ -444,3 +447,4 @@
     </script>
 </body>
 </html>
+
